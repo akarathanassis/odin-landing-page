@@ -29,7 +29,7 @@ ul {
     font-size: 18px;
 }
 
-.content { 
+.section-1 .content { 
     display: flex;
     justify-content: center;
     gap: 90px; 
@@ -38,7 +38,7 @@ ul {
     margin-right: 100px;
 }
 
-.title { 
+.section-1 .title { 
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
@@ -63,7 +63,11 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1; 
+    flex-shrink: 0;
+}
+
+.placeholder { 
+    padding: 100px;
 }
 
 .left { 
@@ -71,5 +75,33 @@ button {
     flex-direction: column;
     align-items: baseline;
     gap: 16px;
+}
+
+.section-2 .title { 
+    color: #1f2937; 
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px;
+}
+
+.section-2 .content { 
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    margin-left: 300px; 
+    margin-right: 300px;
+}
+
+.section-2 .item { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     flex: 1; 
+}
+
+.section-2 .image { 
+    padding: 50px;
+    border: 5px #3882f6 solid;
+    border-radius: 10px;
 }
